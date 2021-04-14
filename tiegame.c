@@ -9,5 +9,4 @@ FILE *tiegame;
     while (fgets(str, 100, tiegame) != NULL)
       printf("%s", str);
     fclose(tiegame);
-return 0;
 }
