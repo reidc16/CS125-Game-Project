@@ -9,7 +9,6 @@ FILE *gameover;
     while (fgets(str, 100, gameover) != NULL)
       printf("%s", str);
     fclose(gameover);
-return 0;
 }
 
 
