@@ -9,7 +9,6 @@ FILE *player;
     while (fgets(str, 100, player) != NULL)
       printf("%s", str);
     fclose(player);
-return 0;
 }
 
 
