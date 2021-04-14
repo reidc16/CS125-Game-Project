@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#nclude "tictacbox.h"
+#include "tictacbox.h"
 void make_board();
 void score_board(int, char);
 void title(void);
