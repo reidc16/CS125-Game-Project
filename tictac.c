@@ -9,7 +9,6 @@ FILE *tictac;
     while (fgets(str, 100, tictac) != NULL)
       printf("%s", str);
     fclose(tictac);
-return 0;
 }
 
 
