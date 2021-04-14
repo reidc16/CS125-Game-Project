@@ -9,6 +9,5 @@ FILE *title;
   while (fgets(str, 100, title) != NULL)
      printf("%s", str);
   fclose(title);
-return 0;
 }
 
