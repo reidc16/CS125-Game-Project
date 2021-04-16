@@ -32,7 +32,7 @@ do
     if (player % 2)                                     
         player = 1;
     else
-        player = 2;                                     /* if the players remainder is 2, the player will be 1, anything else will be player 2 (if value is 0 it will be false) */
+        player = 2;                                     
  
      printf("Player %d, enter a number: ", player);
       scanf("%d", &playerchoice);
